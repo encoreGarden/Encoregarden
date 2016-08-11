@@ -1,0 +1,41 @@
+.grad {
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  background: red;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(black, rgba(255, 255, 255, 0));
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(black, rgba(255, 255, 255, 0));
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(black, rgba(255, 255, 255, 0));
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(black, rgba(255, 255, 255, 0));
+  /* Standard syntax */
+}
+
+.edit-button {
+  z-index: 999;
+  margin-top: -20px;
+  margin-left: 20px;
+  position: absolute;
+  margin-top: -20px;
+}
+
+.card-max-height {
+  max-height: 250px;
+}
+
+.card-title-position {
+  top: 0px;
+  left: 0px;
+  font-size: 1.0em !important;
+}
+
+.moisture-position {
+  top: 20px;
+  right: 0px;
+  left: 50%;
+  font-weight: 500;
+  font-size: 48px !important;
+}

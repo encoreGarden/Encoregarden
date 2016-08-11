@@ -4,21 +4,24 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
     <meta name="theme-color" content="#2196F3">
-    <title>Material UI One Page Theme</title>
+    <title>Encore Living Wall</title>
 
     <!-- CSS  -->
-    <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
-    <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="min/main-sass.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body id="top" class="scrollspy">
 
 <!-- Pre Loader -->
 <div id="loader-wrapper">
     <div id="loader"></div>
- 
+
     <div class="loader-section section-left"></div>
     <div class="loader-section section-right"></div>
- 
+
 </div>
 
 <!--Navigation-->
@@ -26,7 +29,7 @@
     <nav id="nav_f" class="default_color" role="navigation">
         <div class="container">
             <div class="nav-wrapper">
-            <a href="#" id="logo-container" class="brand-logo">MD Template</a>
+            <a href="#" id="logo-container" class="brand-logo">Encore Living Wall</a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="#intro">Service</a></li>
                     <li><a href="#work">Work</a></li>
@@ -47,271 +50,190 @@
     </nav>
 </div>
 
-<!--Hero-->
-<div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-        <h1 class="text_h center header cd-headline letters type">
-            <span>I Love</span> 
-            <span class="cd-words-wrapper waiting">
-                <b class="is-visible">creating</b>
-                <b>designing</b>
-                <b>developing</b>
-            </span>
-        </h1>
-    </div>
-</div>
-
-<!--Intro and service-->
-<div id="intro" class="section scrollspy">
-    <div class="container">
-        <div class="row">
-            <div  class="col s12">
-                <h2 class="center header text_h2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="span_h2"> Phasellus  </span>vestibulum lorem risus, nec suscipit lorem <span class="span_h2"> laoreet quis.</span> </h2>
-            </div>
-
-            <div  class="col s12 m4 l4">
-                <div class="center promo promo-example">
-                    <i class="mdi-image-flash-on"></i>
-                    <h5 class="promo-caption">Speeds up development</h5>
-                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="center promo promo-example">
-                    <i class="mdi-social-group"></i>
-                    <h5 class="promo-caption">User Experience Focused</h5>
-                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="center promo promo-example">
-                    <i class="mdi-hardware-desktop-windows"></i>
-                    <h5 class="promo-caption">Fully responsive</h5>
-                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 <!--Work-->
 <div class="section scrollspy" id="work">
     <div class="container">
-        <h2 class="header text_b">Work </h2>
+        <h3 class="header ">Encore Living Wall </h3>
         <div class="row">
+            <div class="col s12 m6 l4">
+                <!-- Plant number 1 -->
+                <div class="card">
+                    <a href="plant1.html"><div class="card-image waves-effect waves-block waves-light card-max-height">
+                        <div class ="grad"></div>
+                        <img class="activator" src="img/plants/dsc02242-5_26288390566_o.jpg">
+                        <span class="card-title priority2 card-title-position">Project 1 Name</span>
+                        <span class="card-title priority2 moisture-position">90%</span>
+                        <!-- circle button -->
+                    </div></a>
+                    <a class="btn-floating waves-effect waves-light teal edit-button"><i class="material-icons">mode_edit</i></a>
+                    <div class="card-content">
+
+                        <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+
+                    </div>
+                </div>
+
+            </div>
             <div class="col s12 m4 l4">
                 <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project1.jpg">
-                    </div>
+                    <a href="plant1.html"><div class="card-image waves-effect waves-block waves-light card-max-height">
+                        <div class ="grad"></div>
+                        <img class="activator" src="img/plants/dsc02413-5_26314339995_o.jpg">
+                        <span class="card-title priority2 card-title-position">Project 2 Name</span>
+                        <span class="card-title priority2 moisture-position">90%</span>
+                        <!-- circle button -->
+                    </div></a>
+                    <a class="btn-floating waves-effect waves-light teal edit-button"><i class="material-icons">mode_edit</i></a>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
+
+                        <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+
                     </div>
                 </div>
             </div>
             <div class="col s12 m4 l4">
                 <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project2.jpeg">
-                    </div>
+                    <a href="plant1.html"><div class="card-image waves-effect waves-block waves-light card-max-height">
+                        <div class ="grad"></div>
+                        <img class="activator" src="img/plants/edward-garden_19116165959_o.jpg">
+                        <span class="card-title priority2 card-title-position">Project 3 Name</span>
+                        <span class="card-title priority2 moisture-position">90%</span>
+                        <!-- circle button -->
+                    </div></a>
+                    <a class="btn-floating waves-effect waves-light teal edit-button"><i class="material-icons">mode_edit</i></a>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project3.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project4.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project5.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project6.jpeg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
+
+                        <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
 
-<!--Parallax-->
-<div class="parallax-container">
-    <div class="parallax"><img src="img/parallax1.png"></div>
-</div>
-
-<!--Team-->
-<div class="section scrollspy" id="team">
-    <div class="container">
-        <h2 class="header text_b"> Our Team </h2>
         <div class="row">
-            <div class="col s12 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar1.png">
-                    </div>
+            <!-- row 2 -->
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <a href="plant1.html"><div class="card-image waves-effect waves-block waves-light card-max-height">
+                        <div class ="grad"></div>
+                        <img class="activator" src="img/plants/edward-garden_19296299602_o.jpg">
+                        <span class="card-title priority2 card-title-position">Project 4 Name</span>
+                        <span class="card-title priority2 moisture-position">90%</span>
+                        <!-- circle button -->
+                    </div></a>
+                    <a class="btn-floating waves-effect waves-light teal edit-button"><i class="material-icons">mode_edit</i></a>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Flash <br/>
-                            <small><em><a class="red-text text-darken-1" href="#">CEO</a></em></small></span>
-                        <p>
-                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
-                                <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
-                                <i class="fa fa-google-plus-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
-                                <i class="fa fa-linkedin-square"></i>
-                            </a>
-                        </p>
+
+                        <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+
                     </div>
                 </div>
             </div>
-            <div class="col s12 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar2.png">
-                    </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <a href="plant1.html"><div class="card-image waves-effect waves-block waves-light card-max-height">
+                        <div class ="grad"></div>
+                        <img class="activator" src="img/plants/peach-blossom_26221925112_o.jpg">
+                        <span class="card-title priority2 card-title-position">Project 5 Name</span>
+                        <span class="card-title priority2 moisture-position">90%</span>
+                        <!-- circle button -->
+                    </div></a>
+                    <a class="btn-floating waves-effect waves-light teal edit-button"><i class="material-icons">mode_edit</i></a>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Cat Woman<br/>
-                            <small><em><a class="red-text text-darken-1" href="#">Designer</a></em></small>
-                        </span>
-                        <p>
-                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
-                                <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
-                                <i class="fa fa-google-plus-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
-                                <i class="fa fa-linkedin-square"></i>
-                            </a>
-                        </p>
+
+                        <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+
                     </div>
                 </div>
             </div>
-            <div class="col s12 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar3.png">
-                    </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <a href="plant1.html"><div class="card-image waves-effect waves-block waves-light card-max-height">
+                        <div class ="grad"></div>
+                        <img class="activator" src="img/plants/peach-blossom_26221925942_o.jpg">
+                        <span class="card-title priority2 card-title-position">Project 6 Name</span>
+                        <span class="card-title priority2 moisture-position">90%</span>
+                        <!-- circle button -->
+                    </div></a>
+                    <a class="btn-floating waves-effect waves-light teal edit-button"><i class="material-icons">mode_edit</i></a>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">
-                            Capt. America <br/>
-                            <small><em><a class="red-text text-darken-1" href="#">CMO</a></em></small></span>
-                        <p>
-                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
-                                <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
-                                <i class="fa fa-google-plus-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
-                                <i class="fa fa-linkedin-square"></i>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar4.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Robin<br/>
-                            <small><em><a class="red-text text-darken-1" href="#">Developer</a></em></small></span>
-                        <p>
-                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
-                                <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
-                                <i class="fa fa-google-plus-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
-                                <i class="fa fa-linkedin-square"></i>
-                            </a>
-                        </p>
+
+                        <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <a href="plant1.html"><div class="card-image waves-effect waves-block waves-light card-max-height">
+                        <div class ="grad"></div>
+                        <img class="activator" src="img/plants/purple-tulips_26221930362_o.jpg">
+                        <span class="card-title priority2 card-title-position">Project 7 Name</span>
+                        <span class="card-title priority2 moisture-position">90%</span>
+                        <!-- circle button -->
+                    </div></a>
+                    <a class="btn-floating waves-effect waves-light teal edit-button"><i class="material-icons">mode_edit</i></a>
+                    <div class="card-content">
+
+                        <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <a href="plant1.html"><div class="card-image waves-effect waves-block waves-light card-max-height">
+                        <div class ="grad"></div>
+                        <img class="activator" src="img/plants/tulips_25711577863_o.jpg">
+                        <span class="card-title priority2 card-title-position">Project 8 Name</span>
+                        <span class="card-title priority2 moisture-position">90%</span>
+                        <!-- circle button -->
+                    </div></a>
+                    <a class="btn-floating waves-effect waves-light teal edit-button"><i class="material-icons">mode_edit</i></a>
+                    <div class="card-content">
+
+                        <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <a href="plant1.html"><div class="card-image waves-effect waves-block waves-light card-max-height">
+                        <div class ="grad"></div>
+                        <img class="activator" src="img/plants/unknown_26041468620_o.jpg">
+                        <span class="card-title priority2 card-title-position">Project 9 Name</span>
+                        <span class="card-title priority2 moisture-position">90%</span>
+                        <!-- circle button -->
+                    </div></a>
+                    <a class="btn-floating waves-effect waves-light teal edit-button"><i class="material-icons">mode_edit</i></a>
+                    <div class="card-content">
+
+                        <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
     </div>
 </div>
+
 
 <!--Footer-->
 <footer id="contact" class="page-footer default_color scrollspy">
-    <div class="container">  
+    <div class="container">
         <div class="row">
             <div class="col l6 s12">
                 <form class="col s12" action="contact.php" method="post">
@@ -340,7 +262,7 @@
                 </form>
             </div>
             <div class="col l3 s12">
-                <h5 class="white-text">joashpereira.com</h5>
+                <h5 class="white-text">encorelab.com</h5>
                 <ul>
                     <li><a class="white-text" href="http://www.joashpereira.com/">Home</a></li>
                     <li><a class="white-text" href="http://www.joashpereira.com/blog">Blog</a></li>
