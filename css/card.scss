@@ -20,7 +20,7 @@ $transparent: rgba(255, 255, 255, 0.0);
 }
 
 .card-max-height{
-    max-height: 250px;
+    max-height: 300px;
 }
 
 .card-title-position {
@@ -29,10 +29,23 @@ $transparent: rgba(255, 255, 255, 0.0);
     font-size: 1.2em !important;
 }
 
+.card-title-sameline {
+    display:inline;
+}
+
+.card-title-graph {
+    margin-top: -15px;
+    padding-left: 20px;
+}
+
 .moisture-position {
     top:20px;
     right:0px;
     left:50%;
     font-weight: 500;
     font-size: 58px !important;
+}
+
+.card-image {
+    display:inline-block !important;
 }

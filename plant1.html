@@ -9,6 +9,8 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="min/main-sass.css" type="text/css" rel="stylesheet">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://www.google.com/jsapi"></script>
 
@@ -51,8 +53,6 @@
 
           var chart = new google.visualization.LineChart($('#chart').get(0));
           var options = {
-                  width: 1100,
-                  height: 440,
                   title: 'EncoreLab Plants'
                 };
 
@@ -74,14 +74,173 @@
 </head>
 <body>
 
+    <!--Navigation-->
+     <div class="navbar-fixed">
+        <nav id="nav_f" class="default_color" role="navigation">
+            <div class="container">
+                <div class="nav-wrapper">
+                <a href="#" id="logo-container" class="brand-logo">Encore Living Wall</a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#work">About</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="https://github.com/joashp/material-design-template" target="_blank">Download</a></li>
+                    </ul>
+                    <ul id="nav-mobile" class="side-nav">
+                        <li><a href="#work">About</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="https://github.com/joashp/material-design-template" target="_blank">Download</a></li>
+                    </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
 
   <div class="container">
     <div class="section">
      <div class="row">
-         <div id="chart" ></div>
+         <h3 class="header ">Plant 1 Name </h3>
+     </div>
+     <div class="row">
+         <!-- left content -->
+         <div class="col s12 m4 l4" style="border-right: 1px solid #ddd;">
+             <div class="plant-sec-1">
+                 <img src="img/plants/dsc02242-5_26288390566_o.jpg" />
+             </div>
+
+              <div class="plant-sec-2">
+                  <div class="col row plant-sec-comment">
+                  <span>Comments</span>
+                  <form class="col s12">
+                     <div class="row">
+                       <div class="input-field col s12">
+                         <textarea id="textarea1" class="materialize-textarea"></textarea>
+                         <label for="textarea1">textarea</label>
+                       </div>
+                     </div>
+                   </form>
+               </div>
+
+               <div class="row">
+                    <div class="col s3 m3 l2">
+                        <img src="img/people/download1.jpeg" alt="" class="circle responsive-img">
+                    </div>
+                    <div class="col s9 m9 l10">
+                        <div class="col s6 m6 l6 comment-name">
+                            Jane Doe
+                        </div>
+                        <div class="col s6 m6 l6 comment-date">
+                            Aug 1, 2015
+                        </div>
+                        <span class="black-text">
+                           Placeholder for comm ents, place holder for words.
+                         </span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s3 m3 l2">
+                        <img src="img/people/download2.jpeg" alt="" class="circle responsive-img">
+                    </div>
+                    <div class="col s9 m9 l10">
+                        <div class="col s6 m6 l6 comment-name">
+                            Jesse Smith
+                        </div>
+                        <div class="col s6 m6 l6 comment-date">
+                            Aug 1, 2015
+                        </div>
+                        <span class="black-text">
+                           Placeholder for comments, placeholder for comments.
+                         </span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s3 m3 l2">
+                        <img src="img/people/download1.jpeg" alt="" class="circle responsive-img">
+                    </div>
+                    <div class="col s9 m9 l10">
+                        <div class="col s6 m6 l6 comment-name">
+                            Jane Doe
+                        </div>
+                        <div class="col s6 m6 l6 comment-date">
+                            Aug 1, 2015
+                        </div>
+                        <span class="black-text">
+                           Placeholder for comments, placeholder for comments.
+                         </span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s3 m3 l2">
+                        <img src="img/people/images3.jpeg" alt="" class="circle responsive-img">
+                    </div>
+                    <div class="col s9 m9 l10">
+                        <div class="col s6 m6 l6 comment-name">
+                            Sbrina Armstrong
+                        </div>
+                        <div class="col s6 m6 l6 comment-date">
+                            Aug 1, 2015
+                        </div>
+                        <span class="black-text">
+                           Placeholder for comments, placeholder for comments.
+                         </span>
+                    </div>
+                </div>
+               </div>
+              </div>
+
+        <!-- right content -->
+         <div class="col s12 m8 l8" style="padding-left:30px;">
+             <div class="plant-sec-1">
+                 <div class="col row">
+                    <h4> Group Name </h4>
+                    <span> Group 1 </span>
+                </div>
+
+                <div class="col row">
+                    <div class="chip">
+                        <img src="img/people/download1.jpeg" alt="Contact Person">
+                        Jane Doe
+                    </div>
+                    <div class="chip">
+                        <img src="img/people/images3.jpeg" alt="Contact Person">
+                        Sbrina Armstrong
+                    </div>
+                    <div class="chip">
+                        <img src="img/people/images.jpeg" alt="Contact Person">
+                        Gordon Hamed
+                    </div>
+                    <div class="chip">
+                        <img src="img/people/download2.jpeg" alt="Contact Person">
+                        Jesse Smith
+                    </div>
+                </div>
+             </div>
+
+             <div class="row plant-sec-2-right">
+                 <h4>Overview</h4>
+             <div id="chart" ></div>
+            </div>
+
+            <div class="row">
+                <h4> Hours </h4>
+                <ul class="collection each-plant-hour">
+                  <li class="collection-item"><h5>33</h5> hours</li>
+                  <li class="collection-item">Jane Doe <p><b>3 hrs</b></p></li>
+                  <li class="collection-item">Sbrina Armstrong <p><b>7 hrs</b></p></li>
+                  <li class="collection-item">Gordon Hamed <p><b>5 hrs</b></p></li>
+                   <li class="collection-item">Jesse Smith <p><b>5 hrs</b></p></li>
+                </ul>
+           </div>
+         </div>
      </div>
       <!--   Icon Section   -->
-      <div class="row">
+      <!-- <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
@@ -99,7 +258,7 @@
             <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
           </div>
         </div>
-      </div>
+      </div> -->
 
     </div>
   </div>
@@ -146,6 +305,6 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-
+  <script src="js/each-plant.js"></script>
   </body>
 </html>

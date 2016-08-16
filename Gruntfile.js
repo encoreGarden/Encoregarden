@@ -28,7 +28,7 @@ module.exports = function(grunt) {
         concat: {
            basic_and_extras: {
              files: {
-               'js/custom-js.js': ['js/**/*.js'],
+               'js/custom-js.js': ['jsss/**/*.js'],
              },
            },
          },
